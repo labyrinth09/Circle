@@ -1,0 +1,60 @@
+#sidenav {
+margin-top: 0px;
+margin-left: 20px;
+
+}
+
+.row{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.row1{
+
+}
+
+.card-small {
+     width:400px;
+     height:400px;
+    }
+
+#button{
+	position: fixed;
+}
+
+.header{
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: center center;
+	background-size: 100%;
+	background-color: grey;
+}
+
+#font{
+	font-family: Verdana;
+}
+
+#font1{
+	font-family: georgia;
+}
+nav{
+	background-color: #263238;
+	text-align: center;
+}
+nav > ul{
+	margin-left: 580px;
+}
+#lol{
+	width: 100%;
+}
+#circle{
+	height:60px;
+	width:60px;
+	background-color: white;
+	border-radius: 50%;
+	border: solid gray 1px;
+	background-size: 100% auto; 
+}
+.container > .col > .buttons{
+	float: right;
+}

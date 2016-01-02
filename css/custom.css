@@ -1,0 +1,69 @@
+body{
+	background: url(index-bg.jpg);
+}
+div#bg{
+	display: none;
+	position:fixed;
+	top:0; right:0;
+	bottom:0; left:0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index:-1;
+}
+div#content{
+	display: none;
+	margin-top: 12%;
+	max-width:500px;
+	margin-bottom: 150px;
+}
+input#userid, input#pass {
+    opacity: 0.8;
+}
+#loginForm, #logobox{
+	max-width: 500px;
+	display: block;
+	margin:auto;
+}
+#loginButton{
+	float: none;
+	display: block;
+	margin: auto;
+	margin-top: 3%;
+	border-radius: 3px;
+}
+#logobox{
+	margin-bottom: 15px;
+	text-align: center;
+	margin-left: 22%;
+}
+#inputObject{
+	margin: 0 auto;
+	float: none;
+}
+.logo{
+	font-size: 6em;
+	color: white;
+}	
+#box{
+	opacity: 0.8;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 7px 40px 0px rgba(189,189,189,1);
+	-moz-box-shadow: 1px 7px 40px 0px rgba(189,189,189,1);
+	box-shadow: 1px 7px 40px 0px rgba(189,189,189,1);
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #FFFFFF;
+}
+
+#logoText{
+	text-shadow: 1px 1px 30px rgba(150, 150, 150, 0.58);
+}
+#link{
+	text-shadow: 2px 2px 19px rgba(150, 150, 150, 1);
+	color: white;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<meta charset="utf8" />
+	<meta name="viewport" content="width=device-width", initial-scale="1"/>
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link rel="stylesheet" href="fonts/material-design-icons/Material-Design-Icons.svg">
+	<style>
+		.side{
+			width: 20%;
+			height: 100%;
+			position: fixed;
+			background-color: #004489;
+		}
+		.avatar{
+			background-color: black;
+			position: fixed;
+			left: 12.5%;
+			top: 25%;
+			height: 30%;
+			width: 15%;
+			border-radius: 50%;
+			background: url(images/pic.jpg);
+			background-size: auto 100%;
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+		.name{
+			position: fixed;
+			left: 10%;
+			top: 60%;
+			width: 20%;
+			text-align: center;
+			background-color: #565656;
+			border-radius: 5px;
+		}
+		.info{
+			position: fixed;
+			left: 35%;
+			top: 5%;
+			height: 88%;
+			width: 60%;
+			border-radius: 5px;
+		}
+		.card-title{
+			font-size: 25px;
+			letter-spacing: 5px;
+
+		}
+
+		p{
+			margin: 0;
+		}
+		.title{
+			color: #004489;
+		}
+		.data{
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+		body{
+			background-color: #D3D9DF;
+		}
+		#bio{
+			position: fixed;
+			left: 18%;
+			top: 54%;
+		}
+
+	</style>
+</head>
+<body>
+<div class="side z-depth-3"></div>
+<div class="avatar z-depth-2"></div>
+<div id="bio">
+<img src="images/triangle.png">
+</div>
+<div class="name">
+	<p style="font-size: 50px; color: #DBDBCE;">YSSEL</p><p style="font-size: 30px; margin-top: -25px; color: #989898;">SALVANIA</p>
+</div>
+<div class="info card-panel white z-depth-2">
+	<div class="card-content black-text">
+		<span class="card-title title">YSER's PROFILE</span>
+		<li class="divider"></li>
+		<br>
+		<div class="row">
+			<div class="col s6">
+			<p style="font-size: 29px;" class="title">PROJECTS AND ACTIVITIES</p>
+			<p style="margin-top: -10px;">DEPARTMENT</p>
+			<br>
+			<img class="z-depth-1" style="width: 100%" src="images/sched.png">
+			</div>
+			<div class="col s6">
+				<div style="float: left; margin-right: 50px;"><p class="title">FIRST NAME</p><p class="data">YSSEL</p></div>
+				<div><p class="title">LAST NAME</p><p class="data">SALVANIA</p></div>
+				<div><p class="title">MOBILE</p><p class="data">09129834875</p></div>
+				<div><p class="title">EMAIL</p><p class="data">bpsalvania@up.edu.ph</p></div>
+				<div><p class="title">COLLEGE ADDRESS</p><p class="data">Raymundo street</p></div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+</script>
+</html>
